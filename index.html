@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dijikal</title>
+    <link rel="shortcut icon" href="./img/footer/footerlogo2.webp">
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/setting.css">
+    <link rel="stylesheet" href="./remixicon/fonts/remixicon.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <main id="pageup" dir="rtl" class="flex justify-center">
+        <!-- body for test class="bg-purple-300 sm:bg-blue-300 md:bg-green-300 lg:bg-yellow-300 xl:bg-red-300" -->
+        <div class="root relative bg-white w-11/12 md:w-11/12 xl:w-10/12">
+            <!-- header section -->
+            <header class=" mx-auto py-[25px] px-[10px] sm:px-[40px] xl:px-[60px] yekan">
+                <div class="head mb-[25px] w-[100%]">
+                    <a href="#"><img src="./img/pichead.webp" alt="logo"></a>
+                </div>
+                <!-- menu mobile -->
+                <div class="sec1 lg:hidden flex justify-between items-center">
+                    <div class="logo flex gap-[50px] items-center w-11/12">
+                        <div class="search flex gap-[2px] justify-between sm:justify-normal items-center rounded-[10px] p-[10px] bg-gray-300">
+                            <i class="ri-search-line text-gray-500 text-[20px]"></i>
+                            <input type="text" name="search" placeholder="جستجو" class="w-[20%] sm:w-[400px] bg-gray-300">
+                            <img src="./img/logo.svg" alt="" class=" w-[20%] sm:w-[100px]">
+                        </div>
+                    </div>
+                    <div class="icon flex gap-[15px] items-center text-[16px]">
+                        <div class="bg-gray-300 p-[8px] border-[1.5px] rounded-[10px] border-solid broder-[black]">
+                            <a href="#"><i class="ri-notification-2-line text-[22px]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu larg -->
+                <div class="sec1 hidden lg:flex justify-between items-center">
+                    <div class="logo flex gap-[50px] items-center w-[70%]">
+                        <a href="#"><img src="./img/logo.svg" alt="logo" class=" w-[200px]"></a>
+                        <div class="search flex gap-[10px] items-center w-[50%] rounded-[10px] p-[10px] bg-gray-100">
+                            <i class="ri-search-line text-gray-500 text-[20px]"></i>
+                            <a href="#"><input type="text" name="search" placeholder="جستجو" class="w-[400px] bg-black"></a>
+                        </div>
+                    </div>
+                    <div class="icon flex gap-[15px] items-center text-[14px] ">
+                        <a href="#"><i class="ri-notification-2-line text-[22px]"></i></a>
+                        <div class="flex items-center bg-white p-[8px] border-[1.5px] rounded-[10px] border-solid broder-[black]">
+                            <i class="ri-logout-box-line text-[22px]"></i>
+                            <a href="#"><span>ورود</span></a>
+                            <span>|</span>
+                            <a href="#"><span>ثبت نام</span></a>
+                        </div>
+                        <span>|</span>
+                        <a href="#"><i class="ri-shopping-cart-line text-[22px]"></i></a>
+                    </div>
+                </div>
+                <!-- menu larg & mobile-->
+                <div class="sec2 mt-[30px]">
+                    <nav class="flex justify-between items-center">
+                        <div class="menu hidden text-[12px] xl:text-[15px] lg:flex">
+                            <ul class="flex justify-between gap-[20px] text-[#62666d]">
+                                <li>
+                                    <a href="#">
+                                        <i class="ri-menu-line"></i>دسته بندی کالا ها
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">شگفت انگیز ها</a>
+                                </li>
+                                <li>
+                                    <a href="#">سوپرمارکت</a>
+                                </li>
+                                <li>
+                                    <a href="#">طلای دیجیتال</a>
+                                </li>
+                                <li>
+                                    <a href="#">پرفروش ترین ها</a>
+                                </li>
+                                <li>
+                                    <a href="#">سوالی دارید؟</a>
+                                </li>
+                                <li>
+                                    <a href="#">در دیجیکالا بفروشید!</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="chose flex items-center gap-[10px] p-[5px] rounded-[16px] text-[14px] xl:text-[16px] lg:text-[#f57f17] lg:bg-[#ffecdc]">
+                            <a href="#">
+                                <i class="ri-map-pin-line"></i>
+                                <span>شهر خود را انتخاب کنید</span>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- storeis section -->
+            <div class="stories">
+                <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper story">
+                        <!-- write code storeis with array in main js file -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- banner section -->
+            <div class="banner  my-[50px]">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./img/banner1.webp" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./img/banner2.webp" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./img/banner3.webp" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./img/banner4.webp" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./img/banner5.webp" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./img/banner6.webp" alt="banner"></a>
+                    </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- type product section -->
+            <div class="tpro flex gap-[5px] justify-center sm:justify-between flex-row flex-wrap sm:flex-nowrap text-[11px] lg:text-[14px]">
+                <!-- write code type product with array in main js file -->
+            </div>
+            <!-- spacial product section -->
+            <div class="spacialpro bg-[#d92f4e] h-[350px] md:h-[300px] py-[20px] my-[40px]">
+                <div class="flex md:hidden justify-between items-center mx-[10px] sm:mx-[20px] mb-[10px]">
+                    <div class="flex gap-[4px] items-center text-white font-bold ">
+                        <img src="./img/spro00.svg" alt="" class="w-[30px] sm:w-[40px]">
+                        <img src="./img/spro000.svg" alt="" class="w-[80px] sm:w-[110px]">
+                        <div class="flex items-center gap-[4px] text-[12px] sm:text-[16px]">
+                            <span class="flex items-center justify-center bg-white text-center w-[25px] h-[25px] text-black p-[4px] sm:p-[7px] rounded-[8px]">00</span>
+                            <span>:</span>
+                            <span class="flex items-center justify-center bg-white text-center w-[25px] h-[25px] text-black p-[4px] sm:p-[7px] rounded-[8px]">26</span>
+                            <span>:</span>
+                            <span class="flex items-center justify-center bg-white text-center w-[25px] h-[25px] text-black p-[4px] sm:p-[7px] rounded-[8px]">12</span>
+                        </div>
+                    </div>
+                    <div class="text-white text-[12px] sm:text-[16px]"><span>مشاهده همه ></span></div>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper spro">
+                        <!-- write code spacial product with array in main js file -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- banners product section -->
+            <div class="boxbanner">
+                <div class="sect1 w-11/12 mx-auto flex flex-row-reverse justify-between items-center gap-[10px] flex-wrap md:flex-nowrap">
+                    <div class="box w-[42%] md:w-[24%]">
+                        <a href="#"><img src="./img/banner/sectb1.webp" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                    <div class="box w-[42%] md:w-[24%]">
+                        <a href="#"><img src="./img/banner/sectb2.webp" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                    <div class="box w-[42%] md:w-[24%]">
+                        <a href="#"><img src="./img/banner/sectb3.webp" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                    <div class="box w-[42%] md:w-[24%]">
+                        <a href="#"><img src="./img/banner/sectb4.webp" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                </div>
+                <div class="sect2 h-[150px] my-[40px] mx-auto py-[20px] px-[10px] sm:px-[2px] xl:px-[20px] bg-[#ebeeee] flex sm:justify-between items-center w-11/12 rounded-[20px] ">
+                    <div class="flex flex-wrap gap-[5px] items-center">
+                        <img src="./img/banner/sect2pic1.webp" alt="" class="h-[40px]">
+                        <img src="./img/banner/sect2pic2.svg" alt="" class="h-[20px]">
+                        <span class="py-[4px] px-[10px] text-center text-[13px]
+                         bg-[#029a49] text-white rounded-[20px]">تا 45% تخفیف</span>
+                        <div class="btn sm:hidden text-[16px] text-[#029a49] py-[5px] px-[10px] rounded-[20px] bg-white">
+                            <span>بیش از 100 کالا <i class="ri-arrow-left-line"></i></span>
+                        </div>
+                    </div>
+                    <div class="offer flex gap-[5px] items-center">
+                        <div class="box hidden lg:flex relative w-[30%] justify-center">
+                            <a href="#">
+                                <img src="./img/banner/sect2pic3.webp" alt="" class="w-[70px] rounded-[50px]">
+                                <span class="absolute bottom-0 right-0  bg-[#d32f2f] py-[4px] px-[8px] text-white rounded-[16px] text-[12px]">45%</span>
+                            </a>
+                        </div>
+                        <div class="box hidden lg:flex relative w-[30%] justify-center">
+                            <a href="#">
+                                <img src="./img/banner/sect2pic4.webp" alt="" class="w-[70px] rounded-[50px]">
+                                <span class="absolute bottom-0 right-0  bg-[#d32f2f] py-[4px] px-[8px] text-white rounded-[16px] text-[12px]">40%</span>
+                            </a>
+                        </div>
+                        <div class="box hidden lg:flex relative w-[30%] justify-center">
+                            <a href="#">
+                                <img src="./img/banner/sect2pic5.webp" alt="" class="w-[70px] rounded-[50px]">
+                                <span class="absolute bottom-0 right-0  bg-[#d32f2f] py-[4px] px-[8px] text-white rounded-[16px] text-[12px]">40%</span>
+                            </a>
+                        </div>
+                        <div class="box hidden lg:flex relative w-[30%] justify-center">
+                            <a href="#">
+                                <img src="./img/banner/sect2pic6.webp" alt="" class="w-[70px] rounded-[50px]">
+                                <span class="absolute bottom-0 right-0  bg-[#d32f2f] py-[4px] px-[8px] text-white rounded-[16px] text-[12px]">39%</span>
+                            </a>
+                        </div>
+                        <div class="box hidden lg:flex relative w-[30%] justify-center">
+                            <a href="#">
+                                <img src="./img/banner/sect2pic7.webp" alt="" class="w-[70px] rounded-[50px]">
+                                <span class="absolute bottom-0 right-0  bg-[#d32f2f] py-[4px] px-[8px] text-white rounded-[16px] text-[12px]">40%</span>
+                            </a>
+                        </div>
+                        <div class="box hidden xl:flex relative w-[30%] justify-center">
+                            <a href="#">
+                                <img src="./img/banner/sect2pic8.webp" alt="" class="w-[70px] rounded-[50px]">
+                                <span class="absolute bottom-0 right-0  bg-[#d32f2f] py-[4px] px-[8px] text-white rounded-[16px] text-[12px]">35%</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn hidden sm:flex text-[12px] sm:text-[16px] text-[#029a49] py-[5px] px-[10px] rounded-[20px] bg-white">
+                        <a href="#"><span>بیش از 100 کالا <i class="ri-arrow-left-line"></i></span></a>
+                    </div>
+                </div>
+                <div class="sect3 w-11/12 mx-auto flex flex-row-reverse justify-between items-center gap-[10px] flex-wrap md:flex-nowrap">
+                    <div class="box w-[42%] md:w-[24%]">
+                        <a href="#"><img src="./img/banner/sect3pic1.gif" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                    <div class="box w-[42%] md:w-[24%]">
+                        <a href="#"><img src="./img/banner/sect3pic2.webp" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                    <div class="box w-[42%] md:w-[24%]">
+                        <a href="#"><img src="./img/banner/sect3pic3.webp" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                    <div class="box w-[42%] md:w-[24%]">
+                        <a href="#"><img src="./img/banner/sect3pic4.webp" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                </div>
+            </div>
+            <!-- product menu section -->
+            <h3 class="my-[50px] font-bold text-[25px] flex justify-center">خرید بر اساس دسته‌بندی</h3>
+            <div class="sectpro h-[400px] py-[20px] ">
+                <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper menupro">
+                        <!-- write code storeis with array in main js file -->
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro1.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>موبایل</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro2.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>طلا</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro3.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>لوازم تحریر</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro4.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>تجهیزات پزشکی و سلامت</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro5.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>لپ تاپ</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro6.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>کتاب و هنر</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro7.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>کالای دیجیتال</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro8.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>ورزش و سفر</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro9.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>خانه و آشپزخانه</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro10.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>کارت هدیه و گیفت کارت</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro11.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>لوازم خانگی برقی</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro12.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>سوپر مارکت آنلاین</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro13.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>آرایشی بهداشتی</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro14.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>اسباب بازی، کودک و نوزاد</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro15.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>مد و پوشاک</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro16.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>محصولات بومی و محلی</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro17.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>خودرو و موتورسیکلت</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro18.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>پت شاپ</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="./img/dasteproduct/mpro19.jpg" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <span>ابزار آلات و تجهیزات</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- banner2 section -->
+            <div class="baner2  w-11/12 mx-auto flex justify-around items-center gap-[10px] flex-wrap md:flex-nowrap">
+                <div class="box hidden md:flex w-[42%] md:w-[40%]">
+                    <a href="#"><img src="./img/dasteproduct/sect2banner1.webp" alt="banners" class="rounded-[20px] "></a>
+                </div>
+                <div class="box hidden md:flex w-[42%] md:w-[40%] bg-slate-50">
+                    <a href="#"><img src="./img/dasteproduct/sect2banner2.gif" alt="banners" class="rounded-[20px] "></a>
+                </div>
+                <div class="box md:hidden w-[100%] md:w-[40%] bg-slate-50">
+                    <a href="#"><img src="./img/dasteproduct/banner.mobile.jpg" alt="banners" class="rounded-[20px] "></a>
+                </div>
+            </div>
+            <!-- populer section -->
+            <div class="populer w-11/12 my-[50px] py-[30px] mx-auto border-[1px]">
+                <h3 class="my-[30px] font-bold text-[25px] flex justify-center">محبوب‌ترین برندها</h3>
+                <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper brand">
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- banner3 section -->
+            <div class="baner3  w-11/12 mx-auto flex justify-around items-center gap-[10px] flex-wrap md:flex-nowrap">
+                <div class="box hidden md:flex w-[42%] md:w-[40%]">
+                    <a href="#"><img src="./img/dasteproduct/banner.mobile.jpg" alt="banners" class="rounded-[20px] "></a>
+                </div>
+                <div class="box hidden md:flex w-[42%] md:w-[40%] bg-slate-50">
+                    <a href="#"><img src="./img/dasteproduct/sect2banner3.webp" alt="banners" class="rounded-[20px] "></a>
+                </div>
+            </div>
+            <!-- product dasde section -->
+            <div class="productdasde w-11/12 mx-auto my-[50px]">
+                <div class="jadvalpro hidden lg:flex w-full border-[1px] border-solid py-[10px]">
+                    <div class="sec1 flex flex-col gap-[10px]  w-[33.33%] border-l-[1px] p-3">
+                        <h2 class="text-[16px] font-bold">کیف و کاور گوشی</h2>
+                        <span class="text-[11px] text-[#81858b] font-bold">بر اساس سلیقه شما</span>
+                        <div class="pic mx-auto">
+                            <div class="s1 flex">
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec1.01.jpg" alt="" class="w-[150px] p-2 border-l-[1px] border-b"></a>
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec1.02.jpg" alt="" class="w-[150px] p-2 border-b"></a>
+                            </div>
+                            <div class="s2 flex">
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec1.03.jpg" alt="" class="w-[150px] p-2 border-l-[1px]"></a>
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec1.04.jpg" alt="" class="w-[150px] p-2 "></a>
+                            </div>
+                        </div>
+                        <p class="text-center text-[#19bfd3]"><a href="#">مشاهده > </a></p>
+                    </div>
+                    <div class="sec2 flex flex-col gap-[10px]  w-[33.33%] border-l-[1px] p-3">
+                        <h2 class="text-[16px] font-bold">گوشی موبایل</h2>
+                        <span class="text-[11px] text-[#81858b] font-bold">بر اساس سلیقه شما</span>
+                        <div class="pic mx-auto">
+                            <div class="s1 flex">
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec2.01.jpg" alt="" class="w-[150px] p-2 border-l-[1px] border-b"></a>
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec2.02.jpg" alt="" class="w-[150px] p-2 border-b"></a>
+                            </div>
+                            <div class="s2 flex">
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec2.03.jpg" alt="" class="w-[150px] p-2 border-l-[1px]"></a>
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec2.04.jpg" alt="" class="w-[150px] p-2 "></a>
+                            </div>
+                        </div>
+                        <p class="text-center text-[#19bfd3]"><a href="#">مشاهده > </a></p>
+                    </div>
+                    <div class="sec3 flex flex-col gap-[10px]  w-[33.33%] border-l-[1px] p-3">
+                        <h2 class="text-[16px] font-bold">هدفون، هدست و هندزفری</h2>
+                        <span class="text-[11px] text-[#81858b] font-bold">بر اساس سلیقه شما</span>
+                        <div class="pic mx-auto">
+                            <div class="s1 flex">
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec3.01.jpg" alt="" class="w-[150px] p-2 border-l-[1px] border-b"></a>
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec3.02.jpg" alt="" class="w-[150px] p-2 border-b"></a>
+                            </div>
+                            <div class="s2 flex">
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec3.03.jpg" alt="" class="w-[150px] p-2 border-l-[1px]"></a>
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec3.04.jpg" alt="" class="w-[150px] p-2 "></a>
+                            </div>
+                        </div>
+                        <p class="text-center text-[#19bfd3]"><a href="#">مشاهده > </a></p>
+                    </div>
+                    <div class="sec4 flex flex-col gap-[10px] w-[33.33%] border-l-[1px] p-3">
+                        <h2 class="text-[16px] font-bold">کیف و کوله مدرسه</h2>
+                        <span class="text-[11px] text-[#81858b] font-bold">بر اساس سلیقه شما</span>
+                        <div class="pic mx-auto">
+                            <div class="s1 flex">
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec4.01.jpg" alt="" class="w-[150px] p-2 border-l-[1px] border-b"></a>
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec4.02.jpg" alt="" class="w-[150px] p-2 border-b"></a>
+                            </div>
+                            <div class="s2 flex">
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec4.03.jpg" alt="" class="w-[150px] p-2 border-l-[1px]"></a>
+                                <a href="#"><img src="./img/productdasde/jadvalpro.sec4.04.jpg" alt="" class="w-[150px] p-2 "></a>
+                            </div>
+                        </div>
+                        <p class="text-center text-[#19bfd3]"><a href="#">مشاهده > </a></p>
+                    </div>
+                </div>
+                <!-- bag phone slider -->
+                <div class="bagphone lg:hidden my-[50px] border-[1px] border-solid py-[10px]">
+                    <div class="flex justify-between items-center mx-[20px] mb-[10px]">
+                        <div class="flex flex-col gap-[10px]">
+                            <h2 class="text-[16px] font-bold">کیف و کاور گوشی</h2>
+                            <span class="text-[11px] text-[#81858b] font-bold">بر اساس سلیقه شما</span>
+                        </div>
+                        <div class=""><span>مشاهده همه ></span></div>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper">
+                        <div class="swiper-wrapper bphone">
+                            <!-- write code spacial product with array in main js file -->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <!-- phone sell slider -->
+                 <div class="bagphone lg:hidden my-[50px] border-[1px] border-solid py-[10px]">
+                    <div class="flex justify-between items-center mx-[20px] mb-[10px]">
+                        <div class="flex flex-col gap-[10px]">
+                            <h2 class="text-[16px] font-bold">گوشی موبایل</h2>
+                            <span class="text-[11px] text-[#81858b] font-bold">بر اساس سلیقه شما</span>
+                        </div>
+                        <div class=""><span>مشاهده همه ></span></div>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper">
+                        <div class="swiper-wrapper phone">
+                            <!-- write code spacial product with array in main js file -->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <!-- banner -->
+                <div class="baner2  w-11/12 mx-auto flex justify-around items-center gap-[10px] flex-wrap md:flex-nowrap">
+                    <div class="box lg:hidden w-[100%] lg:w-[40%] bg-slate-50">
+                        <a href="#"><img src="./img/dasteproduct/sect2banner1.webp" alt="banners" class="rounded-[20px] "></a>
+                    </div>
+                </div>
+                <!-- airpads slider -->
+                <div class="bagphone lg:hidden my-[50px] border-[1px] border-solid py-[10px]">
+                    <div class="flex justify-between items-center mx-[20px] mb-[10px]">
+                        <div class="flex flex-col gap-[10px]">
+                            <h2 class="text-[16px] font-bold">هدفون، هدست و هندزفری</h2>
+                            <span class="text-[11px] text-[#81858b] font-bold">بر اساس سلیقه شما</span>
+                        </div>
+                        <div class=""><span>مشاهده همه ></span></div>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper">
+                        <div class="swiper-wrapper airpad">
+                            <!-- write code spacial product with array in main js file -->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <!-- bagpacks slider -->
+                <div class="bagphone lg:hidden my-[50px] border-[1px] border-solid py-[10px]">
+                    <div class="flex justify-between items-center mx-[20px] mb-[10px]">
+                        <div class="flex flex-col gap-[10px]">
+                            <h2 class="text-[16px] font-bold">کیف و کوله مدرسه</h2>
+                            <span class="text-[11px] text-[#81858b] font-bold">بر اساس سلیقه شما</span>
+                        </div>
+                        <div class=""><span>مشاهده همه ></span></div>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper">
+                        <div class="swiper-wrapper bagpack">
+                            <!-- write code spacial product with array in main js file -->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- maghale slider -->
+            <div class="maghales my-[50px] border-[1px] border-solid py-[10px]">
+                <div class="flex justify-between items-center mx-[20px] mb-[10px]">
+                    <div class="flex flex-col gap-[10px]">
+                        <h2 class="text-[16px] font-bold">خواندنی‌ها</h2>
+                    </div>
+                    <div class=""><span>مطالب بیشتر در دیجی‌کالا مگ > </span></div>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper maghale">
+                        <!-- write code maghale with array in main js file -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <footer class="px-3">
+                <div class="foterlarg hidden lg:flex flex-col gap-[50px]">
+                    <div class="1 flex items-center justify-between ">
+                        <div class="w-[20%]">
+                            <img src="./img/logo.svg" alt="">
+                        </div>
+                        <a href="#pageup" class="block p-[5px] border-[1px] border-[#a1a3a8] text-center rounded-[8px] text-[#a1a3a8]">بازگشت به بالا <i class="ri-arrow-up-s-line"></i></a>
+                    </div>
+                    <div class="2 text-[12px] flex gap-[10px]">
+                        <span>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</span>
+                        <span>|</span>
+                        <span>۰۲۱-۹۱۰۰۰۱۰۰</span>
+                        <span>|</span>
+                        <span>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</span>
+                    </div>
+                    <div class="3 flex justify-evenly items-center">
+                        <div class="box1 flex flex-col justify-center gap-2">
+                            <img src="./img/footer/sec3.p1.svg" alt="" class="w-[60px] mx-auto">
+                            <span class="text-center md:text-[12px] lg:text-[16px]">اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</span>
+                        </div>
+                        <div class="box2 flex flex-col justify-center gap-2">
+                            <img src="./img/footer/sec3.p2.svg" alt="" class="w-[60px] mx-auto">
+                            <span class="text-center md:text-[12px] lg:text-[16px]">امکان پرداخت در محل</span>
+                        </div>
+                        <div class="box3 flex flex-col justify-center gap-2">
+                            <img src="./img/footer/sec3.p3.svg" alt="" class="w-[60px] mx-auto">
+                            <span class="text-center md:text-[12px] lg:text-[16px]">۷ روز ﻫﻔﺘﻪ، ۲۴ ﺳﺎﻋﺘﻪ</span>
+                        </div>
+                        <div class="box4 flex flex-col justify-center gap-2">
+                            <img src="./img/footer/sec3.p4.svg" alt="" class="w-[60px] mx-auto">
+                            <span class="text-center md:text-[12px] lg:text-[16px]">هفت روز ضمانت بازگشت کالا</span>
+                        </div>
+                        <div class="box5 flex flex-col justify-center gap-2">
+                            <img src="./img/footer/sec3.p5.svg" alt="" class="w-[60px] mx-auto">
+                            <span class="text-center md:text-[12px] lg:text-[16px]">ﺿﻤﺎﻧﺖ اﺻﻞ ﺑﻮدن ﮐﺎﻟﺎ</span>
+                        </div>
+                    </div>
+                    <div class="4 flex justify-between items-start">
+                        <div class="flex flex-col gap-[20px]">
+                            <span class="text-[16px] font-bold">با دیجی‌کالا</span>
+                            <ul class="flex flex-col gap-[20px] text-[14px] text-[#81858b]">
+                                <li><a href="">اتاق خبر دیجی‌کالا</a></li>
+                                <li><a href="">فروش در دیجی‌کالا</a></li>
+                                <li><a href="">فرصت‌های شغلی</a></li>
+                                <li><a href="">گزارش تخلف در دیجی‌کالا</a></li>
+                                <li><a href="">تماس با دیجی‌کالا</a></li>
+                                <li><a href="">درباره دیجی‌کالا</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-col gap-[20px]">
+                            <span class="text-[16px] font-bold">خدمات مشتریان</span>
+                            <ul class="flex flex-col gap-[20px] text-[14px] text-[#81858b]">
+                                <li><a href="">پاسخ به پرسش‌های متداول</a></li>
+                                <li><a href="">رویه‌های بازگرداندن کالا</a></li>
+                                <li><a href="">شرایط استفاده</a></li>
+                                <li><a href="">حریم خصوصی</a></li>
+                                <li><a href="">گزارش باگ</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-col gap-[20px]">
+                            <span class="text-[16px] font-bold">راهنمای خرید از دیجی‌کالا</span>
+                            <ul class="flex flex-col gap-[20px] text-[14px] text-[#81858b]">
+                                <li><a href="">نحوه ثبت سفارش</a></li>
+                                <li><a href="">رویه ارسال سفارش</a></li>
+                                <li><a href="">شیوه‌های پرداخت</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-col gap-[20px]">
+                            <span class="text-[16px] font-bold">همراه ما باشید!</span>
+                            <div class="icon flex justify-around items-center text-[40px] text-[#a1a3a8]">
+                                <a href="#"><i class="ri-instagram-line"></i></a>
+                                <a href="#"><i class="ri-twitter-fill"></i></a>
+                                <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                                <a href="#"><img src="./img/footer/Aparat-Logo.svg" alt=""  class="w-[40px] h-[40px]"></a>
+                            </div>
+                            <span class="text-[16px] font-bold">با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید</span>
+                            <div class="flex gap-4">
+                                <input type="text" placeholder="ایمیل شما" class="bg-[#dfe0e4] p-[10px] rounded-[8px]">
+                                <button class="bg-[#a1a3a8] p-[10px] text-white rounded-[8px]">ثبت</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="5 flex justify-between items-center py-[8px] px-[20px] bg-[#3c4b6d] rounded-[8px]">
+                        <div class="flex gap-5 items-center">
+                            <img src="./img/footer/footerlogo2.webp" alt="" class="w-[50px]">
+                            <span class="text-[21px] font-bold text-white">دانلود اپلیکیشن دیجی‌کالا</span>
+                        </div>
+                        <div class="install flex gap-5 items-center">
+                            <a href="#"><img src="./img/footer/sec5.p1.svg" alt="" class=""></a>
+                            <a href="#"><img src="./img/footer/sec5.p2.svg" alt="" class=""></a>
+                            <a href="#"><img src="./img/footer/sec5.p3.svg" alt="" class=""></a>
+                            <a href="#"><img src="./img/footer/sec5.p4.svg" alt="" class="bg-[#a1a3a8] p-[10px] rounded-[8px]"></a>
+                        </div>
+                    </div>
+                    <div class="6 ">
+                        <p class="text-center text-[11px] text-[#a1a3a8] font-bold">برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.</p>
+                    </div>
+                    <div class="7">
+                        <div class="flex flex-row-reverse justify-evenly items-center bg-gray-300 py-[20px]">
+                            <a href="#"><img src="./img/footer/sec7.p1.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/sec7.p2.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/sec7.p3.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/sec7.p4.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/sec7.p5.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/sec7.p6.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/sec7.p7.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/sec7.p8.svg" alt="" class="w-[100px]"></a>
+                        </div>
+                        <div class="flex flex-row-reverse justify-evenly items-center bg-gray-300 py-[20px]">
+                            <a href="#"><img src="./img/footer/sec7.p9.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/digikala-business.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/smartech.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/digify.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/ganjeh.svg" alt="" class="w-[100px]"></a>
+                            <a href="#"><img src="./img/footer/digiexpress.svg" alt="" class="w-[100px]"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- nazaninkhodaverdi/mephiiii -->
+                <div class="fotermoblie flex lg:hidden flex-col gap-[30px] mb-[100px]">
+                    <div class="1 flex items-center justify-center ">
+                        <a href="#pageup" class="block py-[6px] px-[16px] bg-[#f2f2f2] text-center rounded-[8px] text-[12px] font-bold">بازگشت به بالا <i class="ri-arrow-up-s-line"></i></a>
+                    </div>
+                    <div class="3 flex flex-col gap-[20px]">
+                        <div class="flex justify-between items-center border-b pb-4">
+                            <div class="flex gap-3">
+                                <img src="./img/footer/mobile.s1.p1.png" alt="" class="w-[60px]">
+                                <div class="text-[12px] font-bold flex flex-col justify-evenly">
+                                    <span class="">تماس با پشتیبانی</span>
+                                    <span class="text-[#949595]">۷ روز هفته، ۲۴ ساعت</span>
+                                </div>
+                            </div>
+                            <a href="#pageup" class="block py-[6px] px-[16px] bg-[#f2f2f2] text-center rounded-[8px] text-[12px] font-bold">تماس</a>
+                        </div>
+                        <div class="flex justify-between items-center border-b pb-4">
+                            <div class="flex gap-3 pr-2">
+                                <img src="./img/footer/footerlogo2.webp" alt="" class="w-[40px]">
+                                <div class="text-[12px] font-bold flex flex-col justify-evenly">
+                                    <span class="">اپلیکیشن دیجی‌کالا</span>
+                                    <span class="text-[#949595]">تجربه خرید بهتر در دیجی‌کالا</span>
+                                </div>
+                            </div>
+                            <a href="#pageup" class="block py-[6px] px-[16px] bg-[#f2f2f2] text-center rounded-[8px] text-[12px] font-bold">دانلود</a>
+                        </div>
+                        <div class="menu1 cursor-pointer border-b pb-6 pr-2">
+                            <div class="btn1 h-[100%] flex justify-between ">
+                                <span class="text-[16px] font-bold">با دیجی‌کالا</span>
+                                <i class="ri-arrow-down-wide-line ml-5"></i>
+                            </div>
+                            <ul class="subtitle1 hiden flex flex-col gap-[15px] mt-5 text-[14px] text-[#81858b]">
+                                <li><a href="">اتاق خبر دیجی‌کالا</a></li>
+                                <li><a href="">فروش در دیجی‌کالا</a></li>
+                                <li><a href="">فرصت‌های شغلی</a></li>
+                                <li><a href="">گزارش تخلف در دیجی‌کالا</a></li>
+                                <li><a href="">تماس با دیجی‌کالا</a></li>
+                                <li><a href="">درباره دیجی‌کالا</a></li>
+                            </ul>
+                        </div>
+                        <!-- nazaninkhodaverdi/mephiiii -->
+                        <div class="menu2 cursor-pointer border-b pb-6 pr-2">
+                            <div class="btn2 h-[100%] flex justify-between ">
+                                <span class="text-[16px] font-bold">خدمات مشتریان</span>
+                                <i class="ri-arrow-down-wide-line ml-5"></i>
+                            </div>
+                            <ul class="subtitle2 hiden flex flex-col gap-[15px] mt-5 text-[14px] text-[#81858b]">
+                                <li><a href="">پاسخ به پرسش‌های متداول</a></li>
+                                <li><a href="">رویه‌های بازگرداندن کالا</a></li>
+                                <li><a href="">شرایط استفاده</a></li>
+                                <li><a href="">حریم خصوصی</a></li>
+                                <li><a href="">گزارش باگ</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu3 cursor-pointer border-b pb-6 pr-2">
+                            <div class="btn3 h-[100%] flex justify-between ">
+                                <span class="text-[16px] font-bold">راهنمای خرید از دیجی‌کالا</span>
+                                <i class="ri-arrow-down-wide-line ml-5"></i>
+                            </div>
+                            <ul class="subtitle3 hiden flex flex-col gap-[15px] mt-5 text-[14px] text-[#81858b]">
+                                <li><a href="">نحوه ثبت سفارش</a></li>
+                                <li><a href="">رویه ارسال سفارش</a></li>
+                                <li><a href="">شیوه‌های پرداخت</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu4 cursor-pointer border-b pb-6 pr-2">
+                            <div class="btn4 h-[100%] flex justify-between ">
+                                <span class="text-[16px] font-bold">شرکای تجاری</span>
+                                <i class="ri-arrow-down-wide-line ml-5"></i>
+                            </div>
+                            <div class="subtitle4 flex hiden flex-wrap gap-[40px] justify-center items-center py-[30px]">
+                                <a href="#"><img src="./img/footer/sec7.p1.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/sec7.p2.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/sec7.p3.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/sec7.p4.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/sec7.p5.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/sec7.p6.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/sec7.p7.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/sec7.p8.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/sec7.p9.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/digikala-business.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/smartech.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/digify.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/ganjeh.svg" alt="" class="w-[120px]"></a>
+                                <a href="#"><img src="./img/footer/digiexpress.svg" alt="" class="w-[120px]"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="3">
+                        <p class="text-center px-[20px] text-[11px] text-[#a1a3a8] font-bold">برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.</p>
+                    </div>
+                </div>
+            </footer>
+            <div class="fotermoile4 lg:hidden w-11/12 fixed z-50 bottom-0 flex justify-evenly gap-[20px] bg-white border-t">
+                <a href="#" class="flex flex-col justify-center gap-[10px] text-[12px]">
+                    <img src="./img/footer/mobile.s3.p1.png" alt="" class="mx-auto w-[35px]">
+                    <span class="mx-auto">خانه</span>
+                </a>
+                <a href="#" class="flex flex-col justify-center gap-[10px] text-[12px]">
+                    <img src="./img/footer/mobile.s3.p2.png" alt="" class="mx-auto w-[35px]">
+                    <span>دسته بندی</span>
+                </a>
+                <a href="#" class="flex flex-col justify-center gap-[10px] text-[12px]">
+                    <img src="./img/footer/mobile.s3.p3.png" alt="" class="mx-auto w-[35px]">
+                    <span>سبد خرید</span>
+                </a>
+                <a href="#" class="flex flex-col justify-center gap-[10px] text-[12px]">
+                    <img src="./img/footer/mobile.s3.p4.png" alt="" class="mx-auto w-[35px]">
+                    <span>مگنت</span>
+                </a>
+                <a href="#" class="flex flex-col justify-center gap-[10px] text-[12px]">
+                    <img src="./img/footer/mobile.s3.p5.png" alt="" class="mx-auto w-[35px]">
+                    <span>دیجی کالای من</span>
+                </a>
+            </div>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <!-- js story swipwe -->
+    <script>
+        var swiper = new Swiper('.swiper', {
+        slidesPerView: 3,
+        direction: getDirection(),
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        on: {
+            resize: function () {
+            swiper.changeDirection(getDirection());
+            },
+        },
+        });
+
+        function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 0 ? 'vertical' : 'horizontal';
+
+        return direction;
+        }
+    </script>
+    <!--js banner  Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+    </script>
+</body>
+</html>
