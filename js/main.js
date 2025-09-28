@@ -54,15 +54,15 @@ let storysection = document.querySelector("div.story");
 storysection.innerHTML = "";
 storys.forEach((elem) => {
   storysection.innerHTML += `
-  <div class="swiper-slide">
+  <div class="swiper-slide w-[150px] text-center text-[14px] flex flex-col justify-center items-center gap-2 mr-5">
     <a href="#">
       <div class="img">
-          <img src="${elem.img}" alt="">
+          <img src="${elem.img}" alt="ستوری ها"  class="w-[90px] h-[90px] rounded-full p-[5px] mx-auto border-[3px] border-pink-300">
       </div>
-      <div class="title">
+      <div class="title mx-auto">
           <span>${elem.title}</span>
       </div>
-      </a>
+    </a>
   </div>
     `;
 });
@@ -114,12 +114,12 @@ let typeprodudt = document.querySelector("div.tpro");
 typeprodudt.innerHTML = "";
 tpro.forEach((elem) => {
   typeprodudt.innerHTML += `
-  <div class="tpro-box">
+  <div class="tpro-box w-[100px] text-center flex flex-col justify-start items-center gap-[5px]">
     <a href="#">
       <div class="img">
-          <img src="${elem.img}" alt="">
+          <img src="${elem.img}" alt="دسته‌بندی" class="w-[50px] h-[50px] mx-auto">
       </div>
-      <div class="title">
+      <div class="title mx-auto">
           <span>${elem.title}</span>
       </div>
     </a>
@@ -159,28 +159,28 @@ let spro = [
   },
   {
     img: "./img/product/pro5.webp",
-    name: "دفتر مشق ۵۰ برگ دایان طرح کرومی بسته ۴ عددی",
+    name: "دفتر مشق ۵۰ برگ دایان طرح کرومی  ",
     dicost: 13,
     disprice: "۲۸۰,۰۰۰",
     price: "۳۲۰,۰۰۰",
   },
   {
     img: "./img/product/pro6.webp",
-    name: "دفتر مشق ۵۰ برگی دایان مدل حاشیه دار طرح کرومی ",
+    name: "دفتر مشق ۵۰ برگی دایان مدل حاشیه  ",
     dicost: 11,
     disprice: "۸۰۰,۰۰۰",
     price: "۹۰۰,۰۰۰",
   },
   {
     img: "./img/product/pro7.webp",
-    name: "دفتر مشق 80 برگ آوان مدل حاشیه دار طرح کرومی",
+    name: "دفتر مشق 80 برگ آوان مدل حاشیه   ",
     dicost: 11,
     disprice: "۱۱۴,۰۰۰",
     price: "۱۲۸,۰۰۰",
   },
   {
     img: "./img/product/pro8.webp",
-    name: "دفتر مشق ۸۰ برگ دایان طرح فیفا کد ۵۳۶۴۲ بسته ۴ عددی",
+    name: "دفتر مشق ۸۰ برگ دایان طرح فیفا کد ۵۳۶۴۲   ",
     dicost: 10,
     disprice: "۳۶۰,۰۰۰",
     price: "۴۰۰,۰۰۰",
@@ -231,29 +231,29 @@ spacial.innerHTML = `
 `;
 spro.forEach((elem) => {
   spacial.innerHTML += `
-  <div class="swiper-slide">
-    <a href="#">
+<div class="swiper-slide mr-[5px] w-[160px] h-[300px] bg-white p-2 flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
+  <a href="#">
       <div class="img">
           <img src="${elem.img}" alt="">
       </div>
-      <div class="subtitle">
+      <div class="subtitle flex flex-col gap-[7px]">
           <p>${elem.name}</p>
-          <div>
-              <span>${elem.dicost}%</span>
-              <div class="pric">
+          <div class="flex gap-[7px]">
+              <span class="bg-[#d32f2f] w-[40px] text-white px-2 py-1 rounded-[16px] text-[12px]">${elem.dicost}%</span>
+              <div class="pric flex text-[14px] text-[#3f4064]">
                   <span>${elem.disprice}</span>
-                  <img src="./img/tomanprice.png" alt="toman">
+                  <img src="./img/tomanprice.png" alt="toman" class="w-[20px] h-[20px]">
               </div>
           </div>
-          <p>${elem.price}</p>
+          <p class="line-through text-left">${elem.price}</p>
       </div>
-    </a>
-  </div>
+  </a>
+</div>
 `;
 });
 spacial.innerHTML += `
 <a href="#">
-  <div class="swiper-slide">
+  <div class="swiper-slide mr-[5px] w-[160px] h-[250px] bg-white p-2 flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <div class="more w-[100px] h-[100px] leading-[100px] rounded-[50px] text-[14px] text-center bg-slate-300">مشاهده همه</div>
   </div>
 </a>`;
@@ -313,12 +313,13 @@ let populer = document.querySelector("div.brand");
 populer.innerHTML = "";
 populerpro.forEach((elem) => {
   populer.innerHTML += `
-  <div class="swiper-slide">
-    <a href="#">
-      <div class="img">
-          <img src="${elem.img}" alt="${elem.name}">
-      </a>
-  </div>
+<div class="swiper-slide w-[150px]text-center text-[14px] flex flex-col justify-center items-center gap-[10px] mr-[20px]">
+  <a href="#">
+    <div class="img">
+        <img src="${elem.img}" alt="${elem.name}" class="w-[150px] h-[150px] p-[5px]">
+    </div>
+  </a>
+</div>
     `;
 });
 
@@ -361,7 +362,7 @@ let bagphones = [
   },
   {
     img: "./img/productdasde/bagphones/bagphone.pic6.jpg",
-    name: "پوششی ماهوت مدل Purple Marble-FullSkin",
+    name: "پوششی ماهوت مدل Purple",
     dicost: 22,
     disprice: "۱۸۷,۳۸۰",
     price: "۲۴۰,۲۴۰",
@@ -375,14 +376,14 @@ let bagphones = [
   },
   {
     img: "./img/productdasde/bagphones/bagphone.pic8.jpg",
-    name: "برچسب پوششی ماهوت مدل RL-NKN",
+    name: "برچسب پوششی ماهوت مدل",
     dicost: 21,
     disprice: "۳۸۳,۱۵۰",
     price: "۴۸۵,۰۰۰",
   },
   {
     img: "./img/productdasde/bagphones/bagphone.pic9.jpg",
-    name: "برچسب پوششی ماهوت مدل Minimal Universe ",
+    name: "برچسب پوششی ماهوت مدل",
     dicost: 11,
     disprice: "۳۸۳,۱۵۰",
     price: "۴۸۵,۰۰۰",
@@ -392,21 +393,21 @@ let bphone = document.querySelector("div.bphone");
 bphone.innerHTML = "";
 bagphones.forEach((elem) => {
   bphone.innerHTML += `
-  <div class="swiper-slide">
+  <div class="swiper-slide border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] w-[160px]  bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <a href="#">
       <div class="img">
-          <img src="${elem.img}" alt="">
+          <img src="${elem.img}" alt="" class="h-[120px]">
       </div>
-      <div class="subtitle">
+      <div class="subtitle flex flex-col gap-[7px]">
           <p>${elem.name}</p>
-          <div>
-              <span>${elem.dicost}%</span>
-              <div class="pric">
+          <div class="flex justify-between gap-[10px]">
+              <span class="bg-[#d32f2f] text-white px-[8px] py-[4px] rounded-[16px] text-[12px]">${elem.dicost}%</span>
+              <div class="pric flex text-[14px] text-[#3f4064]">
                   <span>${elem.disprice}</span>
-                  <img src="./img/tomanprice.png" alt="toman">
+                  <img src="./img/tomanprice.png" alt="toman" class="w-[20px] h-[20px]">
               </div>
           </div>
-          <p>${elem.price}</p>
+          <p class="line-through text-left">${elem.price}</p>
       </div>
     </a>
   </div>
@@ -414,7 +415,7 @@ bagphones.forEach((elem) => {
 });
 bphone.innerHTML += `
 <a href="#">
-  <div class="swiper-slide">
+  <div class="swiper-slide border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] w-[160px]  bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <div class="more w-[100px] h-[100px] leading-[100px] rounded-[50px] text-[14px] text-center bg-slate-300">مشاهده همه</div>
   </div>
 </a>`;
@@ -436,7 +437,7 @@ let phones = [
   },
   {
     img: "./img/productdasde/phones/phones.pic3.jpg",
-    name: "گوشی موبایل شیائومی مدل Redmi Note 14 4G",
+    name: "گوشی موبایل شیائومی مدل Redmi",
     dicost: 3,
     disprice: "۱۵,۴۹۹,۰۰۰",
     price: "۱۵,۹۰۰,۰۰۰",
@@ -488,21 +489,21 @@ let phone = document.querySelector("div.phone");
 phone.innerHTML = "";
 phones.forEach((elem) => {
   phone.innerHTML += `
-  <div class="swiper-slide">
+  <div class="swiper-slide border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] w-[160px]  bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <a href="#">
       <div class="img">
-          <img src="${elem.img}" alt="">
+          <img src="${elem.img}" alt="" class="h-[120px]">
       </div>
-      <div class="subtitle">
+      <div class="subtitle flex flex-col gap-[7px]">
           <p>${elem.name}</p>
-          <div>
-              <span>${elem.dicost}%</span>
-              <div class="pric">
+          <div class="flex justify-between gap-[10px]">
+              <span class="bg-[#d32f2f] text-white px-[8px] py-[4px] rounded-[16px] text-[12px]">${elem.dicost}%</span>
+              <div class="pric flex text-[14px] text-[#3f4064]">
                   <span>${elem.disprice}</span>
-                  <img src="./img/tomanprice.png" alt="toman">
+                  <img src="./img/tomanprice.png" alt="toman" class="w-[20px] h-[20px]">
               </div>
           </div>
-          <p>${elem.price}</p>
+          <p class="line-through text-left">${elem.price}</p>
       </div>
     </a>
   </div>
@@ -510,7 +511,7 @@ phones.forEach((elem) => {
 });
 phone.innerHTML += `
 <a href="#">
-  <div class="swiper-slide">
+  <div class="swiper-slide  border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] w-[160px]  bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <div class="more w-[100px] h-[100px] leading-[100px] rounded-[50px] text-[14px] text-center bg-slate-300">مشاهده همه</div>
   </div>
 </a>`;
@@ -546,7 +547,7 @@ let airpads = [
   },
   {
     img: "./img/productdasde/airpads/airpads.pic5.jpg",
-    name: "هدفون بلوتوثی موزیک آپولو مدل HSK5 به همراه کاور سیلیکونی",
+    name: "هدفون بلوتوثی موزیک آپولو مدل HSK5 ",
     dicost: 45,
     disprice: "۱,۲۶۵,۰۰۰",
     price: "۲,۳۰۰,۰۰۰",
@@ -567,7 +568,7 @@ let airpads = [
   },
   {
     img: "./img/productdasde/airpads/airpads.pic8.jpg",
-    name: "هدفون بلوتوثی بیرداینامیک مدل XELENTO Wireless",
+    name: "هدفون بلوتوثی بیرداینامیک مدل",
     dicost: 45,
     disprice: "۱,۲۰۰,۰۰۰",
     price: "۲,۲۰۰,۰۰۰",
@@ -584,21 +585,21 @@ let airpad = document.querySelector("div.airpad");
 airpad.innerHTML = "";
 airpads.forEach((elem) => {
   airpad.innerHTML += `
-  <div class="swiper-slide">
+  <div class="swiper-slide border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] w-[160px]  bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <a href="#">
       <div class="img">
-          <img src="${elem.img}" alt="">
+          <img src="${elem.img}" alt="" class="h-[120px]">
       </div>
-      <div class="subtitle">
+      <div class="subtitle flex flex-col gap-[7px]">
           <p>${elem.name}</p>
-          <div>
-              <span>${elem.dicost}%</span>
-              <div class="pric">
+          <div class="flex justify-between gap-[10px]">
+              <span class="bg-[#d32f2f] text-white px-[8px] py-[4px] rounded-[16px] text-[12px]">${elem.dicost}%</span>
+              <div class="pric flex text-[14px] text-[#3f4064]">
                   <span>${elem.disprice}</span>
-                  <img src="./img/tomanprice.png" alt="toman">
+                  <img src="./img/tomanprice.png" alt="toman" class="w-[20px] h-[20px]">
               </div>
           </div>
-          <p>${elem.price}</p>
+          <p class="line-through text-left">${elem.price}</p>
       </div>
     </a>
   </div>
@@ -606,7 +607,7 @@ airpads.forEach((elem) => {
 });
 airpad.innerHTML += `
 <a href="#">
-  <div class="swiper-slide">
+  <div class="swiper-slide border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] w-[160px]  bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <div class="more w-[100px] h-[100px] leading-[100px] rounded-[50px] text-[14px] text-center bg-slate-300">مشاهده همه</div>
   </div>
 </a>`;
@@ -628,7 +629,7 @@ let bagpacks = [
   },
   {
     img: "./img/productdasde/bagpacks/bagpacks.pic3.jpg",
-    name: "روه موسیقی آسترو به همراه کلاسور و جامدادی",
+    name: "روه موسیقی آسترو به همراه کلاسور ",
     dicost: 6,
     disprice: "۱,۲۲۲,۰۰۰",
     price: "۱,۳۰۰,۰۰۰",
@@ -680,21 +681,21 @@ let bagpack = document.querySelector("div.bagpack");
 bagpack.innerHTML = "";
 bagpacks.forEach((elem) => {
   bagpack.innerHTML += `
-  <div class="swiper-slide">
+  <div class="swiper-slide border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] w-[160px]  bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <a href="#">
       <div class="img">
-          <img src="${elem.img}" alt="">
+          <img src="${elem.img}" alt="" class="h-[120px]">
       </div>
-      <div class="subtitle">
+      <div class="subtitle flex flex-col gap-[7px]">
           <p>${elem.name}</p>
-          <div>
-              <span>${elem.dicost}%</span>
-              <div class="pric">
+          <div class="flex justify-between gap-[10px]">
+              <span class="bg-[#d32f2f] text-white px-[8px] py-[4px] rounded-[16px] text-[12px]">${elem.dicost}%</span>
+              <div class="pric flex text-[14px] text-[#3f4064]">
                   <span>${elem.disprice}</span>
-                  <img src="./img/tomanprice.png" alt="toman">
+                  <img src="./img/tomanprice.png" alt="toman" class="w-[20px] h-[20px]">
               </div>
           </div>
-          <p>${elem.price}</p>
+          <p class="line-through text-left">${elem.price}</p>
       </div>
     </a>
   </div>
@@ -702,7 +703,7 @@ bagpacks.forEach((elem) => {
 });
 bagpack.innerHTML += `
 <a href="#">
-  <div class="swiper-slide">
+  <div class="swiper-slide border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] w-[160px]  bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
     <div class="more w-[100px] h-[100px] leading-[100px] rounded-[50px] text-[14px] text-center bg-slate-300">مشاهده همه</div>
   </div>
 </a>`;
@@ -756,16 +757,16 @@ let maghale = document.querySelector("div.maghale");
 maghale.innerHTML = "";
 maghales.forEach((elem) => {
   maghale.innerHTML += `
-  <div class="swiper-slide">
-      <a href="#">
-      <div class="img">
-          <img src="${elem.img}" alt="">
-      </div>
-      <div class="subtitle">
-          <p>${elem.title}</p>
-      </div>
-      </a>
-  </div>
+<div class="swiper-slide border border-[#d4d4d4] rounded-[10px] mr-[5px] mt-[20px] !h-[200px] !w-[250px] bg-white p-[8px] flex flex-col justify-center items-center gap-[10px] font-semibold text-[#62666d] text-[12px]">
+    <a href="#">
+        <div class="img">
+            <img src="${elem.img}" alt="" class="w-full">
+        </div>
+        <div class="subtitle flex flex-col gap-[7px]">
+            <p class="p-[5px]">${elem.title}</p>
+        </div>
+    </a>
+</div>
 `;
 });
 
